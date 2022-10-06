@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>340 Cipher</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+  <link href="css/keyboard.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+  <h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-lower text-primary mb-3" style="color:black"><b>340 Cipher</b></span>
+  </h1>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">340 Cipher</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">O šifře
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="decrypt.html">Dešifrovat
+              </a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="encrypt.html">Šifrovat
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="z13.html">Z-13 Cipher</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-section clearfix">
+    <div id="container">
+      <div>
+        <textarea id="write" rows="6" cols="60"></textarea>
+        <p>DOPORUČUJI MAX. 17 ZNAKŮ</p>
+      </div>
+    
+      <div align="center" >
+        <button type="button" style="margin-right: 10px; margin-top: 10px" class="btn btn-primary encrypt-button">Šifrovat</button>
+        <button type="button" style="margin-left: 10px; margin-top: 10px" class="btn btn-primary reset-button"> Reset </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section clearfix">
+      <div class="container">
+        <div>
+          <table class="table table-bordered">
+            <tbody class ="encrypted">
+              <tr align="center"> 
+                <td scope="col" id="0" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="1" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="2" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="3" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="4" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="5" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="6" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="7" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="8" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="9" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="10" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="11" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="12" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="13" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="14" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="15" class="0"><img src="./symbols/0.png"/></td>
+                <td scope="col" id="16" class="0"><img src="./symbols/0.png"/></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div align="center">
+        <button type="button" class="btn btn-primary export-button">Export Zašifrované Zprávy</button>
+      </div>
+      </section>
+
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">&copy; 2021 <b>MarWen</b></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/encryptScripts.js"></script> 
+
+</body>
+
+</html>
